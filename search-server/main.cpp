@@ -1,11 +1,5 @@
-#include <iostream>
-
 #include "search_server.h"
-#include "document.h"
-#include "paginator.h"
 #include "request_queue.h"
-#include "read_input_functions.h"
-#include "string_processing.h"
 
 int main() {
     SearchServer search_server("and in at"s);
