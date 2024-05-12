@@ -22,8 +22,7 @@ class SearchServer {
 public:
     
     template <typename StringContainer>
-    explicit SearchServer(const StringContainer& stop_words)
-        : stop_words_(MakeUniqueNonEmptyStrings(stop_words));
+    explicit SearchServer(const StringContainer& stop_words);
 
     explicit SearchServer(const string& stop_words_text);
 
